@@ -321,8 +321,8 @@ ul.nav li.dropdown a {
 
 #featured{
 	width: 100%;
-	/*
-	background:#013a3d; */
+	background-image: url("../img/dbg.png");
+	background-size: 100%;
 	position:relative;
 	margin:0;
 	padding:0;

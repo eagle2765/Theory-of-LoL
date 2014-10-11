@@ -217,9 +217,8 @@ ul.clients li:hover {
 
 /* footer */
 footer{
-	/*
-	background:#68A4C4;
-	*/
+	background-image:url("../img/dbg.png");
+	background-size:100%;
 }
 #sub-footer{
 	background:#68A4C4;
