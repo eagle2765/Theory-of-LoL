@@ -249,7 +249,7 @@ header ul.nav li ul li a {
 
 
 .navbar .nav > li > a {
-  color: #111;
+  color: #DDDCE9;
   text-shadow: none;
 }
 
@@ -740,7 +740,7 @@ ul.portfolio-categ li{
 ul.portfolio-categ li a{
 	display:block;
 	padding:35x 0 35x 0;
-	color:#353535;
+	color:#DDDCE9;
 }
 
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
