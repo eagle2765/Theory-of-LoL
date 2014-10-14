@@ -40,6 +40,22 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+ul {
+	list-style-type: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(245,245,245,0), rgba(245,245,245,0.25), rgba(245,245,245,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+article {
+	font-size: 17px;
+	font-family: Calibri, sans-serif;
 }
 /* ===================================
 2. layout
@@ -68,7 +84,6 @@ h1,h2, h3, h4, h5, h6 {
 .row.nomargin,.row-fluid.nomargin {
 	margin-bottom:0;
 }
-
 
 
 /* ===================================
@@ -112,7 +127,7 @@ header .navbar {
 
 .navbar-brand {
     color: #222;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
@@ -126,11 +141,6 @@ header .navbar-collapse  ul.navbar-nav {
     margin-right: 0;
 }
 
-/*
-header .navbar-default{
-    background-color: #013a3d;
-}
-*/
 
 header .nav li a:hover,
 header .nav li a:focus,
@@ -401,6 +411,10 @@ section.callaction {
 	text-decoration: none;
 }
 
+.caption1 {
+	padding-top: 15px;
+	text-align: center;
+}
 
 /* ===================================
 9. Section: Bottom
@@ -1321,6 +1335,36 @@ ul.meta-post li a{
     color: #fff;
     font-weight: bold;
 }
+
+.well1 {
+	min-height:20px;
+	padding:19px;
+	margin-bottom:20px;
+	/*
+	background: rgba(245,245,245,0.20);
+	*/
+	border:1px solid rgba(245,245,245,0.20);
+	border-radius:4px;
+
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+	*/
+}
+
+.hoverlink a:hover {
+	color: #68A4C4;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.hoverlink a {
+	color: #DDDCE9;
+}
+
 
 
 /* ===============================
