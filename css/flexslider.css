@@ -47,6 +47,13 @@ zoom: 1;}
 
 .carousel li {margin-right: 5px}
 
+/* main slider on front page
+*/
+.slider-container {
+	margin-left: auto;
+	margin-right: auto;
+	width:80%
+}
 /* Caption style */
 
 .flex-caption { background: rgba(0,0,0,.8); margin-left:5px;bottom:5px; position:absolute;padding:20px; z-index:0;}
