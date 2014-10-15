@@ -1336,20 +1336,6 @@ ul.meta-post li a{
     font-weight: bold;
 }
 
-.well1 {
-	min-height:20px;
-	padding:19px;
-	margin-bottom:20px;
-	/*
-	background: rgba(245,245,245,0.20);
-	*/
-	border:1px solid rgba(245,245,245,0.20);
-	border-radius:4px;
-
-	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
-	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
-	*/
-}
 
 .hoverlink a:hover {
 	color: #68A4C4;
@@ -1365,8 +1351,28 @@ ul.meta-post li a{
 	color: #DDDCE9;
 }
 
+/* --- article content --- */
 
+.well1 {
+	min-height:20px;
+	padding:19px;
+	margin-bottom:20px;
+	
+	background: rgba(0, 0, 0, .1);
+	
+	border:1px solid rgba(245,245,245,0.20);
+	border-radius:4px;
 
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+	
+}
+
+.inarticle {
+    display: block;
+    margin-left:auto;
+    margin-right:auto
+}
 /* ===============================
 15. Aside, sidebar
 ================================ */
